@@ -1,0 +1,76 @@
+Start
+ |
+ V
+Define ft_putchar() function
+ |
+ V
+Define rush() function
+ |
+ V
+Define ft_integer_only() function
+ |
+ V
+Define ft_print_manager() function
+ |
+ V
+Main function:
+ |
+ V
+Get command-line arguments
+ |
+ V
+Check if argc == 1
+ |
+ V
+If true, call rush() function with default arguments (5, 5)
+ |
+ V
+If false, check if argc == 3
+ |
+ V
+If true, convert argv[1] and argv[2] to integers using ft_integer_only()
+ |
+ V
+Check if integers are valid (not -1)
+ |
+ V
+If true, call rush() function with converted arguments
+ |
+ V
+If false, print error message
+ |
+ V
+End main function
+ |
+ V
+Inside rush() function:
+ |
+ V
+Check if x and y are greater than 0
+ |
+ V
+If true, print top row of grid using ft_print_manager()
+ |
+ V
+Subtract 1 from y
+ |
+ V
+Loop y-2 times:
+ |
+ V
+Print middle rows of grid using ft_print_manager()
+ |
+ V
+End loop
+ |
+ V
+Check if y is greater than 0
+ |
+ V
+If true, print bottom row of grid using ft_print_manager()
+ |
+ V
+End rush() function
+ |
+ V
+End program
